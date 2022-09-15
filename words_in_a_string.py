@@ -1,3 +1,6 @@
 s=input()
-w=s.split()
-print(len(w))
+sp=0
+for ch in s:
+    if ch==' ':
+        sp=sp+1
+print(sp+1)
